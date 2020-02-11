@@ -1,0 +1,19 @@
+.btn.btn-link:hover, .btn.btn-link:focus {
+    color: black;
+     text-decoration: none; 
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn.btn-link,div.list-group-item a.nav-link{
+	color: black;
+}
+.card-header{
+	background-color: white;
+}
+.card-header:hover,.card-header:focus{
+	background-color: #80808012;
+}
+.accordion>.card>.card-header{
+	margin-bottom: 0px;
+}
+

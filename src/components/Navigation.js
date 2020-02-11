@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import { Navbar,Nav } from 'react-bootstrap'; 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
 } from "react-router-dom";
-import FormPage from './Forms';
-import AllJobs from './AllJobs';
-import App from '../App';
-import Accordion from './Accordion';
 
 class Navigation extends Component {
 

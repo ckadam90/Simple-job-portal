@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Navigation from './components/Navigation';
 import Accordion from './components/Accordion';
@@ -40,7 +39,7 @@ class App extends Component {
           </Route>
           <Route path="/AllJobs">
             <Header HeadText="Lists Of All Available Vacancies"/>
-            <AllJobs Job1="" Job1="Software Developer" Job2="Front-end Developer"Job3="Back-end Developer" Job4="Java Developer" Job5="AWS developer" Job6="Php developer" Job7="UI/UX developer"  Job8="Data Scientist" Job9="Dot net developer" />
+            <AllJobs Job1="Software Developer" Job2="Front-end Developer"Job3="Back-end Developer" Job4="Java Developer" Job5="AWS developer" Job6="Php developer" Job7="UI/UX developer"  Job8="Data Scientist" Job9="Dot net developer" />
           </Route>
 
           <Route path="/">

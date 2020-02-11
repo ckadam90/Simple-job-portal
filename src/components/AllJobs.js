@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { ListGroup,Nav} from 'react-bootstrap';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
 } from "react-router-dom";
 
 class AllJobs extends Component{

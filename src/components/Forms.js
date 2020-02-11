@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
-import Header from './header';
-import {
-  withRouter
-} from 'react-router-dom';
 
 
-const subForm = <Header />;
+
+
 
 class FormPage extends Component { 
 
 
-submitForm (e) {
-              e.preventDefault()
-              this.props.history.push('/');
-            }
 
   render(){
 
@@ -24,7 +17,7 @@ return (
 <MDBContainer>
   <MDBRow>
     <MDBCol md="6" className="col-lg-12 col-md-12 ">
-      <form OnSubmit ="{this.submitForm.bind(subForm)}" >
+      <form OnSubmit ="submit" >
         <p className="h5 text-center mb-4">Applying{this.props.JobName}</p>
         <div className="grey-text">
           <MDBInput label="Your name" icon="user" group type="text" validate error="wrong" success="right"  />
